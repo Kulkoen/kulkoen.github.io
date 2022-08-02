@@ -32,7 +32,6 @@
 				// External link? Bail.
 					if ($this.attr('href').charAt(0) != '#')
 						return;
-
 				// Prevent default.
 					e.preventDefault();
 
