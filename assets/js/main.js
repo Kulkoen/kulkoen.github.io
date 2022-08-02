@@ -29,9 +29,30 @@
 
 				var $this = $(this);
 
+				if ($this.attr('value').charAt(0) != '#') {
+					var $temp = $this.attr('value');
+					$("body").append($temp);
+					$temp.val($(element).text()).select();
+					document.execCommand("copy");
+					$temp.remove();
+					return;
+				}
+				
+				
 				// External link? Bail.
-					if ($this.attr('href').charAt(0) != '#')
-						return;
+				if ($this.attr('href').charAt(0) != '#') {
+					return;
+				}
+
+				if ($this.attr('href').charAt(0) == '##') {
+					var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(this).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+					return;
+				}
+					
 				// Prevent default.
 					e.preventDefault();
 
