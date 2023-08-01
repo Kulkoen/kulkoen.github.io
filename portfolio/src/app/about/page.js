@@ -9,11 +9,12 @@ const About = () => {
 			<div className="p-6 flex w-full flex-col items-center justify-center">
 				<AnimatedText text="A Little Bit About Me!" className="" />
 				<div className="grid w-full grid-cols-8 gap-16 m-6">
-					<div className="col-span-3 relative h-max rounded-2xl border-2 border-dark/75 p-2">
+					<div className="col-span-3 relative h-max rounded-2xl border-2 border-dark/75 p-2 ">
+						{/* <div className="absolute top-0 -right-3 bg-dark w-[102%] h-[103%]" /> */}
 						<Image
 							src={profilePic}
 							alt="Keefe Oentoro"
-							className="w-full h-auto rounded-2xl border-2 border-solid -z-9"
+							className="w-full h-auto rounded-2xl border-2 border-solid"
 						/>
 					</div>
 
@@ -45,12 +46,12 @@ const About = () => {
 						<p className="my-3 text-lg font-medium">
 							Breakdancing | Photography | Video Editing | Video Games
 						</p>
-						<h2 className="mb-3 text-xl font-bold uppercase text-dark/75">
+						{/* <h2 className="mb-3 text-xl font-bold uppercase text-dark/75">
 							Currenly Listening to...
 						</h2>
 						<p className="my-3 text-lg font-medium">
 							[Spotify API to show last listened to]
-						</p>
+						</p> */}
 					</div>
 				</div>
 			</div>

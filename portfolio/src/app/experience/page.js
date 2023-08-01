@@ -3,7 +3,7 @@ import React from "react";
 
 const page = () => {
 	return (
-		<main className="border w-full">
+		<main className=" w-full">
 			<Experience />
 		</main>
 	);

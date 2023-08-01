@@ -18,9 +18,7 @@ export default function RootLayout({ children }) {
 		<html lang="en" className={`${montserrat.variable} font-mont`}>
 			<body className="bg-light w-full min-h-screen ">
 				<Navbar />
-				<main className="`z-auto w-full h-screen z-0 bg-light p-32 pt-0 flex">
-					{children}
-				</main>
+				<main className="w-full h-screen bg-light p-32 pt-0 ">{children}</main>
 				<Footer />
 			</body>
 		</html>

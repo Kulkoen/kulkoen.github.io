@@ -30,12 +30,12 @@ const Navbar = () => {
 			<nav>
 				<CustomNavLinks href="/" title="Home" className="mr-4" />
 				<CustomNavLinks href="/about" title="About" className="mx-4" />
-				<CustomNavLinks href="/old" title="Projects" className="mx-4" />
-				<CustomNavLinks
+				<CustomNavLinks href="/projects" title="Projects" className="mx-4" />
+				{/* <CustomNavLinks
 					href="/experience"
 					title="Experience"
 					className="mx-4"
-				/>
+				/> */}
 				<Link
 					href="/KeefeOentoroResume.pdf"
 					target={"__blank"}

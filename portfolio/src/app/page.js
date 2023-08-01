@@ -24,10 +24,10 @@ export default function Home() {
 				</div>
 				<div className="w-1/2 flex flex-col items-center self-center">
 					<AnimatedText text="Keefe Oentoro" className="" />
-					<p className="my-4 text-base font-medium ">
+					<p className="w-3/4 my-4 text-base font-medium">
 						As a an aspiring software engineer and developer, I am dedicated to
-						turning ideas into the tangible. Here you can see some of my
-						projects, my skills, and learn a little bit about me.
+						turning ideas into the tangible. You can see some of my projects, my
+						skills, and learn a little bit about me on this website.
 					</p>
 					<nav className=" w-full px-8 py-2 font-medium flex items-center justify-center">
 						<MotionLink
