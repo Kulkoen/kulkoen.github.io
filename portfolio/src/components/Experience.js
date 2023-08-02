@@ -13,7 +13,7 @@ const Details = ({ position, company, time, place, companyLink }) => {
 						@{company}
 					</a>
 				</h3>
-				<span className="capitalize font-medium text-dark/75">
+				<span className="capitalize font-medium text-light/75">
 					{time} | {place}
 				</span>
 			</div>
@@ -28,7 +28,7 @@ const Experience = () => {
 				Experience
 			</h2>
 			<div className="w-full mx-auto relative">
-				<div className="absolute left-16 top-0 w-[4px] h-full bg-dark origin-top" />
+				<div className="absolute left-16 top-0 w-[4px] h-full bg-light origin-top" />
 				<ul>
 					<Details
 						position="Student Assistant"

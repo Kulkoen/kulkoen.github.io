@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import project1 from "../../../public/ShingekiNoCowjin.png";
+import project2 from "../../../public/PersonalWebsite.png";
 
 const ProjectItem = ({ type, title, img, link, summary, github }) => {
 	return (
@@ -42,7 +43,7 @@ const Projects = () => {
 		<main className="">
 			<AnimatedText text="My Work!" />
 
-			<div className="grid grid-cols-12 gap-24 pt-4">
+			<div className="grid grid-cols-12 gap-24 pt-4 text-dark">
 				<div className="col-span-6">
 					<ProjectItem
 						title="Shingeki No Cowjin"
@@ -53,10 +54,20 @@ const Projects = () => {
 					/>
 				</div>
 				<div className="col-span-6">
+					<ProjectItem
+						title="Personal Website"
+						link="/"
+						type="Personal Project"
+						img={project2}
+						github="https://github.com/Kulkoen/kulkoen.github.io"
+					/>
+				</div>
+
+				{/* <div className="col-span-6">
 					<article className="w-full flex flex-col items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-6 relative">
 						In Progress
 					</article>
-				</div>
+				</div> */}
 			</div>
 		</main>
 	);

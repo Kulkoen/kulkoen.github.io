@@ -10,7 +10,7 @@ const HomeButton = () => {
 		<div className="flex items-center justify-center mt-2">
 			<MotionLink
 				href="/"
-				className="w-12 h-12 text-light flex items-center justify-center rounded-full text-2xl font-bold"
+				className="w-12 h-12 text-dark flex items-center justify-center rounded-full text-2xl font-bold"
 				whileHover={{ scale: 1.1 }}>
 				<HomeIcon />
 			</MotionLink>

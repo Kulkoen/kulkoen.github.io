@@ -23,8 +23,8 @@ export default function Home() {
 					/>
 				</div>
 				<div className="w-1/2 flex flex-col items-center self-center">
-					<AnimatedText text="Keefe Oentoro" className="" />
-					<p className="w-3/4 my-4 text-base font-medium">
+					<AnimatedText text="Keefe Oentoro" className="text-dark" />
+					<p className="w-3/4 my-4 text-base font-medium text-dark">
 						As a an aspiring software engineer and developer, I am dedicated to
 						turning ideas into the tangible. You can see some of my projects, my
 						skills, and learn a little bit about me on this website.
